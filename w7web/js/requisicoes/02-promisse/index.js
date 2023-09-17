@@ -7,8 +7,11 @@ function clicou() {
       return data.json();
    }).then((data) => {
       console.log(data[0].title)
-   }).catch(() => {
+   }).catch((error) => {
       console.log('não foi possivel')
+      console.log(error)
+   }).finally(() => {
+      console.log('opa acabou tudo')
    })
 }
 
