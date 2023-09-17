@@ -7,6 +7,8 @@ function clicou() {
       return data.json();
    }).then((data) => {
       console.log(data[0].title)
+   }).catch(() => {
+      console.log('não foi possivel')
    })
 }
 
