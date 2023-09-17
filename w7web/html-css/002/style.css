@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+}
+
+p {
+    color: #000024; /*cor do texto*/
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    /*text-transform: uppercase;*/
+    /*text-transform: lowercase;*/
+    /*letter-spacing: 10px; espaçamento entre letras*/
+    /*word-spacing: 20px; espaçamento entre palavras*/
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
