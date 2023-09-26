@@ -1,9 +1,11 @@
-import express, { Request, Response } from "express";
+import express from "express";
+import mainRoutes from './routes/index'
+
+
 
 const server = express()
 
-server.get('/', (req: Request, res: Response) => {
-    res.send('olá mundo')
-})
+server.use(mainRoutes)
+
 
 server.listen(80);
